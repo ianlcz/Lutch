@@ -1,0 +1,26 @@
+{
+  "name": "lutch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianlcz/Lutch.git"
+  },
+  "author": "Yann Le Coz",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ianlcz/Lutch/issues"
+  },
+  "homepage": "https://github.com/ianlcz/Lutch#readme",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1"
+  }
+}
