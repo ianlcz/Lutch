@@ -4,13 +4,15 @@
 class Card {
   /**
    * Create a card.
-   * @param {string} rank Ace, 2, 3, ..., Jack, Queen, King.
-   * @param {string} suit Spades, Diamonds, Clubs, Hearts.
-   * @param {*} point Card's value.
+   * @param {string} rank A, 2, 3, ..., J, Q, K.
+   * @param {string} suit ♠, ♦, ♣, ♥.
+   * @param {string} power The card's power (switch, watch).
+   * @param {number} point Card's value.
    */
-  constructor(rank, suit, point) {
+  constructor(rank, suit, power, point) {
     this.rank = rank
     this.suit = suit
+    this.power = power
     this.point = point
   }
 }
