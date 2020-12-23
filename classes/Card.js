@@ -10,11 +10,11 @@ class Card {
    * @param {number} point Card's value.
    */
   constructor(rank, suit, power, point) {
-    this.rank = rank
-    this.suit = suit
-    this.power = power
-    this.point = point
+    this.rank = rank;
+    this.suit = suit;
+    this.power = power;
+    this.point = point;
   }
 }
 
-module.exports = Card
+module.exports = Card;
